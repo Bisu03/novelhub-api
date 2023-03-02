@@ -14,6 +14,9 @@ const announcementScheama = new mongoose.Schema(
     desc: {
       type: String,
     },
+    date: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
